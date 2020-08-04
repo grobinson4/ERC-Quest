@@ -70,7 +70,7 @@ INJECTED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Te
 		ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		MERGED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
-uses-feature#0x00020000
+uses-feature#0x00030002
 ADDED from [:unityLibrary] C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-54
 	android:glEsVersion
 		ADDED from [:unityLibrary] C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:19-51

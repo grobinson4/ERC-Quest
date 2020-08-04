@@ -18,7 +18,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature android:glEsVersion="0x00030002" />
 
     <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
 
@@ -91,7 +91,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="645eb778-dcf1-4174-8b93-e2b288ca607d" />
+            android:value="670a7532-ae37-4df0-b61f-6ce25de451df" />
         <meta-data
             android:name="com.samsung.android.vr.application.mode"
             android:value="vr_only" />

@@ -119,7 +119,7 @@ ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\
 		ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:20:67-88
 	android:name
 		ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:20:16-66
-uses-feature#0x00020000
+uses-feature#0x00030002
 ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:22:3-52
 	android:glEsVersion
 		ADDED from C:\Users\garobins\Documents\RobinsonTech\XR\ERC-Quest\ERC-Quest\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:22:17-49
