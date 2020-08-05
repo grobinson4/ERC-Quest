@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - VRRenderScale
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
@@ -12,6 +14,10 @@ ScriptsOnlyBuild:
     - OVRMeshRenderer
     - OVRSkeleton
     - OVRSkeletonRenderer
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -43,12 +49,12 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.Graphing.GraphObject
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -107,12 +113,6 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11470}
-    - Class: 114
-      Script: {instanceID: 11472}
-    - Class: 114
-      Script: {instanceID: 11474}
-    - Class: 114
       Script: {instanceID: 11476}
     - Class: 114
       Script: {instanceID: 11478}
@@ -125,83 +125,99 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11486}
     - Class: 114
+      Script: {instanceID: 11488}
+    - Class: 114
       Script: {instanceID: 11490}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11674}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 11646}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11680}
     - Class: 114
-      Script: {instanceID: 11930}
+      Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 12122}
+      Script: {instanceID: 11810}
     - Class: 114
-      Script: {instanceID: 12790}
+      Script: {instanceID: 11838}
     - Class: 114
-      Script: {instanceID: 12828}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 12872}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 13178}
+      Script: {instanceID: 12322}
     - Class: 114
-      Script: {instanceID: 13248}
+      Script: {instanceID: 12734}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 13592}
+      Script: {instanceID: 12878}
     - Class: 114
-      Script: {instanceID: 13726}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 14122}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 13528}
     - Class: 114
-      Script: {instanceID: 14524}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 14632}
+      Script: {instanceID: 13996}
     - Class: 114
-      Script: {instanceID: 14796}
+      Script: {instanceID: 14130}
     - Class: 114
-      Script: {instanceID: 14832}
+      Script: {instanceID: 14160}
+    - Class: 114
+      Script: {instanceID: 14532}
+    - Class: 114
+      Script: {instanceID: 14614}
+    - Class: 114
+      Script: {instanceID: 14640}
+    - Class: 114
+      Script: {instanceID: 14804}
     - Class: 114
       Script: {instanceID: 14840}
     - Class: 114
-      Script: {instanceID: 14950}
+      Script: {instanceID: 14846}
     - Class: 114
-      Script: {instanceID: 15222}
+      Script: {instanceID: 14850}
     - Class: 114
-      Script: {instanceID: 15296}
+      Script: {instanceID: 14960}
     - Class: 114
-      Script: {instanceID: 15332}
+      Script: {instanceID: 15232}
     - Class: 114
-      Script: {instanceID: 15450}
+      Script: {instanceID: 15306}
     - Class: 114
-      Script: {instanceID: 15584}
+      Script: {instanceID: 15342}
     - Class: 114
-      Script: {instanceID: 15802}
+      Script: {instanceID: 15460}
     - Class: 114
-      Script: {instanceID: 15862}
+      Script: {instanceID: 15594}
     - Class: 114
-      Script: {instanceID: 16134}
+      Script: {instanceID: 15812}
     - Class: 114
-      Script: {instanceID: 16142}
+      Script: {instanceID: 15870}
     - Class: 114
-      Script: {instanceID: 16176}
+      Script: {instanceID: 15872}
     - Class: 114
-      Script: {instanceID: 16216}
+      Script: {instanceID: 16144}
     - Class: 114
-      Script: {instanceID: 16352}
+      Script: {instanceID: 16152}
     - Class: 114
-      Script: {instanceID: 16358}
+      Script: {instanceID: 16186}
+    - Class: 114
+      Script: {instanceID: 16226}
+    - Class: 114
+      Script: {instanceID: 16362}
+    - Class: 114
+      Script: {instanceID: 16368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1117,6 +1133,12 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestScript
+  - hash:
+      serializedVersion: 2
       Hash: bb416e9a49fa1056a851e29bfaeebe51
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1789,6 +1811,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerPanel
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRRenderScale
+  - hash:
+      serializedVersion: 2
       Hash: 0a3fa1a367fddc65eb32515029503334
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -2351,12 +2379,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TestScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Homeroom.unity
